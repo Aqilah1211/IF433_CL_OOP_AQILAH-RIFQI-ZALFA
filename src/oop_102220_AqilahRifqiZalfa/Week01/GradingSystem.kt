@@ -1,9 +1,10 @@
 package oop_00000102220_AqilahRifqiZalfa.week01
 
 fun main() {
-    var studentName = "John Doe"
-    var score = 85.5
-    var grade = ""
+    // Ubah var menjadi val (immutable)
+    val studentName = "John Doe"
+    val score = 85.5
+    var grade = ""  // grade tetap var karena akan diubah
 
     if (score >= 90) {
         grade = "A"
@@ -17,5 +18,6 @@ fun main() {
         grade = "E"
     }
 
-    println("Student: " + studentName + ", Score: " + score + ", Grade: " + grade)
+    // Gunakan String Template ($) instead of (+)
+    println("Student: $studentName, Score: $score, Grade: $grade")
 }
