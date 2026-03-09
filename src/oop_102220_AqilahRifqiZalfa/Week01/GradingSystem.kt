@@ -1,10 +1,12 @@
 package oop_00000102220_AqilahRifqiZalfa.week01
 
+// Fungsi terpisah dengan Expression Body ✨
+fun calculateStatus(score: Double) = if (score >= 75) "Lulus" else "Tidak Lulus"
+
 fun main() {
     val studentName = "John Doe"
     val score = 85.5
 
-    // when sebagai Expression (mengembalikan nilai langsung) ✨
     val grade = when {
         score >= 90 -> "A"
         score >= 80 -> "B"
@@ -13,5 +15,6 @@ fun main() {
         else -> "E"
     }
 
-    println("Student: $studentName, Score: $score, Grade: $grade")
+    val status = calculateStatus(score)
+    println("Student: $studentName, Score: $score, Grade: $grade, Status: $status")
 }
