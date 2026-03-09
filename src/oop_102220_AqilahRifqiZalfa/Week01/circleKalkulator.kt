@@ -1,22 +1,15 @@
 package oop_00000102220_AqilahRifqiZalfa.week01
 
+// Ubah fungsi menjadi Expression Body & mengembalikan String ✨
+fun checkSize(area: Double) = if (area > 100) "This is a Big Circle" else "This is a Small Circle"
+
 fun main(args: Array<String>) {
-    // Ubah var menjadi val + Type Inference ✨
     val radius = 7.0
     val pi = 3.14
-
     val area = pi * radius * radius
 
-    // String Template ✨
     println("Radius: $radius, Area: $area")
 
-    checkSize(area)
-}
-
-fun checkSize(area: Double) {
-    if (area > 100) {
-        println("This is a Big Circle")
-    } else {
-        println("This is a Small Circle")
-    }
+    // Panggil fungsi di dalam println ✨
+    println(checkSize(area))
 }
