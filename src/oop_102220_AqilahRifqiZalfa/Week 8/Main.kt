@@ -12,3 +12,10 @@ order.customer?.address?.city?.let {
     println("City found: $it")
 }
 val mixedList = listOf("Hello", 123, true, "World")
+
+for (item in mixedList) {
+    val text = item as? String
+    if (text != null) {
+        println(text)
+    }
+}
