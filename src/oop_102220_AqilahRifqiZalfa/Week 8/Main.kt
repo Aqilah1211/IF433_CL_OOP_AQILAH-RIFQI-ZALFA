@@ -19,3 +19,7 @@ for (item in mixedList) {
         println(text)
     }
 }
+for (item in mixedList) {
+    val text = item as? String ?: "Not String"
+    println(text)
+}
