@@ -11,3 +11,4 @@ fun main() {
 order.customer?.address?.city?.let {
     println("City found: $it")
 }
+val mixedList = listOf("Hello", 123, true, "World")
