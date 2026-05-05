@@ -1,4 +1,4 @@
-package oop_102220_Aqil.week11
+package oop_102220_AqilahRifqiZalfa.Week11
 
 fun String.toTitleCase(): String {
     return this.split(" ").joinToString(" ") {
