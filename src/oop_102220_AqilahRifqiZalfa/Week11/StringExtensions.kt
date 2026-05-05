@@ -1,10 +1,11 @@
 package oop_102220_AqilahRifqiZalfa.Week11
 
-fun String.toTitleCase(): String {
-    return this.split(" ").joinToString(" ") {
-        it.replaceFirstChar { c -> c.uppercase() }
-    }
+fun String.addGreeting(): String {
+    return "Hello, $this"
 }
-fun String?.safeLength(): Int {
-    return this?.length ?: 0
+fun String.repeatTimes(n: Int): String {
+    return this.repeat(n)
+}
+fun String?.isNullOrEmptyCustom(): Boolean {
+    return this == null || this.isEmpty()
 }
