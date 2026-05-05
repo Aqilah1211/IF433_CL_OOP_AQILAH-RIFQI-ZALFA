@@ -1,6 +1,5 @@
 package oop_102220_AqilahRifqiZalfa.Week11
 
-package oop_102220_Aqil.week11
 
 fun main() {
     val text: String? = "hello"
