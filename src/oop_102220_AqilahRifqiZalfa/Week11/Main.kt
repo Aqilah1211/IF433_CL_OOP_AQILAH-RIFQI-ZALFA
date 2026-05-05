@@ -18,3 +18,7 @@ fun main() {
 user.also {
     println("User dibuat: $it")
 }
+with(user) {
+    println(name)
+    println(age)
+}
