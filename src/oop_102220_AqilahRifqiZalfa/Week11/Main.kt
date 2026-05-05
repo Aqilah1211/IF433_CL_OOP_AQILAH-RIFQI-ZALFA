@@ -15,3 +15,6 @@ fun main() {
         age = 20
     }
 }
+user.also {
+    println("User dibuat: $it")
+}
