@@ -8,4 +8,11 @@ fun main() {
     homeDevices.add(SmartDevice("Philips WiZ Living Room", "Lighting").apply {
         isOnline = true
         powerLoad = 12
+    }.also { println(it.diagnose()) })
+    SmartDevice("Ezviz Outdoor", "Camera").apply {
+        isOnline = true
+        powerLoad = 5
     }.also {
+        println("(LOG) Kamera terhubung")
+        homeDevices.add(it)
+    }
