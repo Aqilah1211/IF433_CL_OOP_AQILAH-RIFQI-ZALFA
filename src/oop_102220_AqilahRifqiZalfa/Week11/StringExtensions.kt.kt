@@ -5,3 +5,6 @@ fun String.toTitleCase(): String {
         it.replaceFirstChar { c -> c.uppercase() }
     }
 }
+fun String?.safeLength(): Int {
+    return this?.length ?: 0
+}
