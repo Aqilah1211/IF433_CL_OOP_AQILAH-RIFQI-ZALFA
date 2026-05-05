@@ -22,3 +22,9 @@ with(user) {
     println(name)
     println(age)
 }
+val user2 = User().apply {
+    name = "Rifqi"
+    age = 21
+}.also {
+    println(it)
+}
