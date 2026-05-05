@@ -8,3 +8,10 @@ fun main() {
     val text: String? = null
     println(text.safeLength())
 }
+fun main() {
+
+    val user = User().apply {
+        name = "Aqil"
+        age = 20
+    }
+}
