@@ -1,18 +1,12 @@
 package oop_102220_AqilahRifqiZalfa.Week11
 
-
 fun main() {
-    val text: String? = "hello"
+    println("=== TEST LET FUNCTION ===")
+    val name: String? = "Alexander"
 
-    // LET
-    text?.let {
-        println("Length: ${it.length}")
+    // Mengeksekusi blok hanya jika objek tidak null
+    val length = name?.let {
+        println("Nama terdeteksi: $it") // 'it' merujuk pada name
+        it.length // Mengembalikan nilai expression terakhir
     }
-
-    // RUN
-    val result = text?.run {
-        length * 2
-    }
-
-    println("Result: $result")
-}
+    println("Panjang nama: $length")
