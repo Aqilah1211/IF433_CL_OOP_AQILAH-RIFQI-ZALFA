@@ -1,0 +1,17 @@
+[33mb561408[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m week01: (tugas 2) implement null safety for user note
+[33mad91947[m week01: (tugas 2) implement receipt printing
+[33m0dbcb84[m week01: (tugas 2) implement discount logic
+[33m8b247dd[m week01: (tugas 2) setup GameStore file
+[33mc1e646d[m week01: (tugas 1) clean up unused args and comments
+[33mfbbc6fc[m week01: (tugas 1) convert checkSize to expression body function
+[33m06d1d3b[m week01: (tugas 1) refactor variables to val and use string templates
+[33m5e21192[m week01: (tugas 1) add legacy CircleCalculator code
+[33m88952b4[m week01: implement null safety check
+[33mb035167[m week01: add calculateStatus function
+[33mf0c087b[m week01: implement grading logic using when expression
+[33m7c7527f[m week01: refactor to use val and string templates
+[33m2ce033d[m week01: initial setup and procedural code
+[33md68c1e0[m[33m ([m[1;31morigin/main[m[33m)[m Delete README.md
+[33m114da98[m week01: initial setup and procedural code
+[33m17af3ea[m week01: initial setup and procedural code
+[33m0c57695[m Initial commit
