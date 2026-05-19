@@ -1,7 +1,5 @@
-package oop_102220_AqilahRifqiZalfa.Week11
+package oop_102220_AqilahRifqiZalfa.Week12
 
-Kotlin
-package oop_00000110660_grandmoze.week11
 
 fun main() {
     val homeDevices = mutableListOf<SmartDevice>()
@@ -35,3 +33,5 @@ fun main() {
         homeDevices.forEach {
             println(it.diagnose())
         }
+    } // Kurung kurawal penutup untuk fungsi main() yang hilang
+}

@@ -24,3 +24,4 @@ fun main() {
     }.also {
         println("User baru berhasil dibuat: $it")
     }
+} // Kurung kurawal penutup untuk fungsi main() yang hilang
