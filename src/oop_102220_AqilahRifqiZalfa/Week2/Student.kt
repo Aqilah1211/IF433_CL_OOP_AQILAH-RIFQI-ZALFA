@@ -19,3 +19,4 @@ constructor (name: String, nim: String): this (name, nim, "Non-Matriculated", 0.
     println("LOG: Menggunakan constructor jalur umum (Tanpa Jurusan).")
 }
 }
+        
