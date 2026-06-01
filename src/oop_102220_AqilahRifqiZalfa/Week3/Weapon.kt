@@ -23,3 +23,7 @@ class Weapon(val name: String) {
             }
         }
 }
+val w = Weapon("Excalibur")
+w.damage = -50
+w.damage = 9999
+println("Weapon: ${w.name}, Damage: ${w.damage}, Tier: ${w.tier}")
