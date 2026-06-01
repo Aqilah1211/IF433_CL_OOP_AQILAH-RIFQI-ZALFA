@@ -16,3 +16,6 @@ class Player(val username: String) {
         }
     }
 }
+val p = Player("ShadowHunter")
+p.addXp(50)
+p.addXp(60)
